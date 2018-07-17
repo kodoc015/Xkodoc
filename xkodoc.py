@@ -124,9 +124,9 @@ def main():
 	       elif sosmed == "00" or sosmed == "0":  
 	            restart_program()  
 	       else:
-	       print "\nERROR:Wrong Input"
-	            timeout(2)
-	            restart_program()
+	                print "\nERROR:Wrong Input"
+	                timeout(2)
+	                restart_program()
 	#other
 	elif xkodoc == "4" or xkodoc == "04":
 		print "\n    [01] Hashbuster"
@@ -147,7 +147,7 @@ def main():
 		elif other == "00" or other == "0":
                     restart_program()
 		else:
-		print "\nERROR: Wrong Input"
+                        print "\nERROR: Wrong Input"
 			timeout(2)
 			restart_program()
 	
