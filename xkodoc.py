@@ -15,7 +15,7 @@ def main():
 	xkodoc = raw_input("xkodoc > ")
 	
 	#Hacking
-	if xkodoc == "1" or xkodoc == "01":
+        if xkodoc == "1" or xkodoc == "01":
 		print "\n    (01) Nmap"
 		print "    (02) Red Hawk"
 		print "    (03) sqlmap"
@@ -72,7 +72,7 @@ def main():
 			restart_program()
 			
     #spammer
-    elif xkodoc == "2" or xkodoc == "02":
+        elif xkodoc == "2" or xkodoc == "02":
 		print "\n    (01) Spammer-Email"
 		print "    (02) Spammer-Grab"
 		print "    (03) Hac"
@@ -105,7 +105,7 @@ def main():
 			restart_program()
 			
 	#sosmed
-    elif xkodoc == "3" or xkodoc == "03":
+        elif xkodoc == "3" or xkodoc == "03":
                print "\n    (01) Instabot"
 	       print "    (02) MBF (FB)"
 	       print "    (03) Auto IG"
