@@ -11,7 +11,7 @@ def main():
 	print "   (2) Spammer"
 	print "   (3) Sosmed"
 	print "   (4) Other"
-	print "   (4) Back!!!\n"
+	print "   (5) Back!!!\n"
 	xkodoc = raw_input("xkodoc > ")
 	
 	#Hacking
@@ -148,7 +148,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif xkodoc == "10":
+	elif xkodoc == "5":
 		sys.exit()
 	
 	else:
