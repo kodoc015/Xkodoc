@@ -121,7 +121,7 @@ def main():
 	            auto_ig()
 	       elif sosmed == "04" or sosmed == "4":
 	            osif()
-	       elif sosmed == "00" or sosmed == "0"  
+	       elif sosmed == "00" or sosmed == "0":  
 	            restart_program()  
 	       else:
 	       print "\nERROR:Wrong Input"
