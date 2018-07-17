@@ -11,7 +11,7 @@ def main():
 	print "   (2) Spammer"
 	print "   (3) Sosmed"
 	print "   (4) Other"
-	print "   (5) Back!!!\n"
+	print "   (4) Back!!!\n"
 	xkodoc = raw_input("xkodoc > ")
 	
 	#Hacking
@@ -72,7 +72,7 @@ def main():
 			restart_program()
 			
     #spammer
-	elif xkodoc == "2" or xkodoc == "02":
+    elif xkodoc == "2" or xkodoc == "02":
 		print "\n    (01) Spammer-Email"
 		print "    (02) Spammer-Grab"
 		print "    (03) Hac"
@@ -106,10 +106,11 @@ def main():
 			
 	#sosmed
     elif xkodoc == "3" or xkodoc == "03":
-	    print "\n    (01) Instabot"
+            print "\n    (01) Instabot"
 	    print "    (02) MBF (FB)"
 	    print "    (03) Auto IG"
 	    print "    (04) osif"
+	    print "    (00) back to main menu\n"
 	    sosmed = raw_input("xkodoc >")
 	    
 	    if sosmed == "01" or sosmed == "1":
@@ -118,8 +119,10 @@ def main():
 	        mbf()
 	    elif sosmed == "03" or sosmed == "3":
 	        auto_ig()
-	    elif sosmed == "04" or sosmer == "4":
+	    elif sosmed == "04" or sosmed == "4":
 	        osif()
+	    elif sosmed == "00" or sosmed == "0"  
+	        restart_program()  
 	    else:
 	        print "\nERROR:Wrong Input"
 	        timeout(2)
