@@ -77,7 +77,7 @@ def main():
 		print "    (02) Spammer-Grab"
 		print "    (03) Hac"
 		print "    (04) santet-online"
-		print "    (05) SpazSMS\n"
+		print "    (05) SpazSMS"
 		print "    (06) Spam-TLP"
 		print "    (07) Spam Tokopedia"
 		print "    [00] Back to main menu\n"
