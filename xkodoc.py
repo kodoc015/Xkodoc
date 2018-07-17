@@ -134,7 +134,7 @@ def main():
 		print "    [03] Sudo"
 		print "    [04] Metasploit"
 		print "    [00] Back to main menu\n"
-		moretool = raw_input("xkodoc > ")
+                other= raw_input("xkodoc > ")
 		
 		if other == "01" or other == "1":
                     hash_buster()
