@@ -7,6 +7,7 @@ from core.corexkodoc import *
 
 def main():
 	banner()
+        print "   Selamat datang di Xkodoc,silahkan pilih: "
 	print "   (1) Hacking"
 	print "   (2) Spammer"
 	print "   (3) Sosmed"
