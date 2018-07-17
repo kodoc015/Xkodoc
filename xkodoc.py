@@ -62,7 +62,7 @@ def main():
 		    admin_finder()   
 		elif hacking == "14":
 		    owscan()  
-		elif hacking == "15":'
+		elif hacking == "15":
 		    brute_gmail()    
 		elif hacking == "00" or hacking == "0":
 			restart_program()
