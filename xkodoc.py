@@ -105,7 +105,7 @@ def main():
 			restart_program()
 			
 	#sosmed
-    elif sosmed == "3" or sosmed == "03":
+    elif xkodoc == "3" or xkodoc == "03":
 	    print "\n    (01) Instabot"
 	    print "    (02) MBF (FB)"
 	    print "    (03) Auto IG"
