@@ -15,7 +15,7 @@ def main():
 	xkodoc = raw_input("xkodoc > ")
 	
 	#Hacking
-    if xkodoc == "1" or xkodoc == "01":
+	if xkodoc == "1" or xkodoc == "01":
 		print "\n    (01) Nmap"
 		print "    (02) Red Hawk"
 		print "    (03) sqlmap"
@@ -34,7 +34,7 @@ def main():
 		print "    (00) Back to main menu\n"
 		hacking = raw_input("xkodoc > ")
 		
-        if hacking == "01" or hacking == "1":
+		if hacking == "01" or hacking == "1":
 			nmap()
 		elif hacking == "02" or hacking == "2":
 			red_hawk()
@@ -72,7 +72,7 @@ def main():
 			restart_program()
 			
     #spammer
-    elif xkodoc == "2" or xkodoc == "02":
+	elif xkodoc == "2" or xkodoc == "02":
 		print "\n    (01) Spammer-Email"
 		print "    (02) Spammer-Grab"
 		print "    (03) Hac"
@@ -83,7 +83,7 @@ def main():
 		print "    [00] Back to main menu\n"
 		spammer = raw_input("xkodoc > ")
 		
-        if spammer == "01" or spammer == "1":
+		if spammer == "01" or spammer == "1":
 			spammer_email()
 		elif spammer == "02" or spammer == "2":
 			spammer_grab()
@@ -112,7 +112,7 @@ def main():
 	    print "    (04) osif"
 	    sosmed = raw_input("xkodoc >")
 	    
-        if sosmed == "01" or sosmed == "1":
+	    if sosmed == "01" or sosmed == "1":
 	        instabot()
 	    elif sosmed == "02" or sosmed == "2":
 	        mbf()
@@ -148,7 +148,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif xkodoc == "4":
+	elif xkodoc == "5":
 		sys.exit()
 	
 	else:
