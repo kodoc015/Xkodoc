@@ -35,19 +35,19 @@ def main():
 		hacking = raw_input("xkodoc > ")
 		
 		if hacking == "01" or hacking == "1":
-			nmap()
+                    nmap()
 		elif hacking == "02" or hacking == "2":
-			red_hawk()
+                    red_hawk()
 		elif hacking == "03" or hacking == "3":
-			sqlmap()
+                    sqlmap()
 		elif hacking == "04" or hacking == "4":
-			sqlmate()
+                    sqlmate()
 		elif hacking == "05" or hacking == "5":
-		     sqliv()
+		    sqliv()
 		elif hacking == "06" or hacking == "6":
 		    sqldump()  
 		elif hacking == "07" or hacking == "7":
-		   sqlokmed()     	
+		    sqlokmed()     	
 		elif hacking == "08" or hacking == "8":
 		    sqlscan()
 		elif hacking == "09" or hacking == "9":
@@ -65,7 +65,7 @@ def main():
 		elif hacking == "15":
 		    brute_gmail()    
 		elif hacking == "00" or hacking == "0":
-			restart_program()
+                    restart_program()
 		else:
 			print "\nERROR: Wrong Input"
 			timeout(2)
@@ -84,21 +84,21 @@ def main():
 		spammer = raw_input("xkodoc > ")
 		
 		if spammer == "01" or spammer == "1":
-			spammer_email()
+                    spammer_email()
 		elif spammer == "02" or spammer == "2":
-			spammer_grab()
+                    spammer_grab()
 		elif spammer == "03" or spammer == "3":
-			hac()
+                    hac()
 		elif spammer == "04" or spammer == "4":
-			sanlen()
+                    sanlen()
 		elif spammer == "05" or spammer == "5":
-			spazsms()
+                    spazsms()
 		elif spammer == "06" or spammer == "6":
-			spam_tlp()
+                    spam_tlp()
 		elif spammer == "07" or spammer == "7":
 		    spam_tokped()
 		elif spammer == "00" or spammer == "0":
-			restart_program()
+                    restart_program()
 		else:
 			print "\nERROR: Wrong Input"
 			timeout(2)
@@ -106,27 +106,27 @@ def main():
 			
 	#sosmed
     elif xkodoc == "3" or xkodoc == "03":
-            print "\n    (01) Instabot"
-	    print "    (02) MBF (FB)"
-	    print "    (03) Auto IG"
-	    print "    (04) osif"
-	    print "    (00) back to main menu\n"
-	    sosmed = raw_input("xkodoc >")
+               print "\n    (01) Instabot"
+	       print "    (02) MBF (FB)"
+	       print "    (03) Auto IG"
+	       print "    (04) osif"
+	       print "    (00) back to main menu\n"
+	       sosmed = raw_input("xkodoc >")
 	    
-	    if sosmed == "01" or sosmed == "1":
-	        instabot()
-	    elif sosmed == "02" or sosmed == "2":
-	        mbf()
-	    elif sosmed == "03" or sosmed == "3":
-	        auto_ig()
-	    elif sosmed == "04" or sosmed == "4":
-	        osif()
-	    elif sosmed == "00" or sosmed == "0"  
-	        restart_program()  
-	    else:
-	        print "\nERROR:Wrong Input"
-	        timeout(2)
-	        restart_program()
+	       if sosmed == "01" or sosmed == "1":
+                    instabot()
+	       elif sosmed == "02" or sosmed == "2":
+	            mbf()
+	       elif sosmed == "03" or sosmed == "3":
+	            auto_ig()
+	       elif sosmed == "04" or sosmed == "4":
+	            osif()
+	       elif sosmed == "00" or sosmed == "0"  
+	            restart_program()  
+	       else:
+	       print "\nERROR:Wrong Input"
+	            timeout(2)
+	            restart_program()
 	#other
 	elif xkodoc == "4" or xkodoc == "04":
 		print "\n    [01] Hashbuster"
@@ -137,17 +137,17 @@ def main():
 		moretool = raw_input("xkodoc > ")
 		
 		if other == "01" or other == "1":
-			hash_buster()
+                    hash_buster()
 		elif other == "02" or other == "2":
-			ngrok()
+                    ngrok()
 		elif other == "03" or other == "3":
-			sudo()
+                    sudo()
 		elif other == "04" or other == "4":
-			metasploit()
+                    metasploit()
 		elif other == "00" or other == "0":
-			restart_program()
+                    restart_program()
 		else:
-			print "\nERROR: Wrong Input"
+		print "\nERROR: Wrong Input"
 			timeout(2)
 			restart_program()
 	
