@@ -1,3 +1,3 @@
 # Xkodoc tools
-*cd Xkodoc
-*python2 xkodoc.py
+<br>cd Xkodoc<br>
+python2 xkodoc.py
